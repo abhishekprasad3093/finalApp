@@ -1,0 +1,162 @@
+.header-search {
+  color: rgba(255, 255, 255, .75);
+  border-right-color: #282e34;
+  font-size: 13px;
+  width: 800px;
+}
+.header-search .form-control, .header-search .input-group-text {
+  font-size: 13px;
+}
+.header-search .input-group-prepend .input-group-text {
+  background-color: rgba(255, 255, 255, 0.125);
+  border: none;
+  color: #fff;
+}
+.header-search input {
+  background-color: rgba(255, 255, 255, 0.125);
+  border: none;
+  color: #fff;
+}
+.header-search input ::placeholder {
+  color: red;
+  opacity: 1;
+  /* Firefox */
+}
+.header-search input :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: red;
+}
+.header-search input ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: red;
+}
+.header-search input[type="text"]:focus {
+  box-shadow: none;
+  border-color: #ced4da;
+}
+.userslist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.userslist .user {
+  list-style-type: none;
+} 
+
+.user .card {
+  width: 260px;
+  height: 325px;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  text-align: left;
+  position: relative;
+  background: #fff;
+  -webkit-box-shadow: 5px 5px 25px 0 rgba(46, 61, 73, .2);
+  box-shadow: 5px 5px 25px 0 rgba(46, 61, 73, .2);
+  border-radius: 0.375rem;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.user .card:hover {
+  -webkit-box-shadow: 2px 4px 8px 0 rgba(46, 61, 73, .2);
+  box-shadow: 2px 4px 8px 0 rgba(46, 61, 73, .2);
+  cursor: pointer;
+}
+
+.empty-username,
+.user-notfound {
+      position: absolute;
+      top: 25%;
+      left: 45%;
+}
+
+.names-container .full-name {
+  font-size: 26px;
+  line-height: 30px;
+  color: #333;
+}
+.user-profile-bio {
+  margin-bottom: 12px;
+  overflow: hidden;
+  font-size: 14px;
+  color: #767676;
+}
+.user-profile-nav {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+.user-profile-nav .nav-item {
+  font-size: 14px;
+  color: #767676;
+  vertical-align: middle;
+  border-bottom: 2px solid transparent;
+  padding: 16px 8px;
+  margin-right: 16px;
+}
+.user-profile-nav .nav-item.active {
+  font-weight: 600;
+  color: #24292e;
+  border-bottom-color: #e36209;
+}
+.user-profile-nav .nav-item:hover, .user-profile-nav .nav-item:focus {
+  color: #24292e;
+  text-decoration: none;
+  border-bottom-color: #d1d5da;
+  transition: 0.2s ease;
+}
+.counter {
+  display: inline-block;
+  padding: 2px 5px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1;
+  color: #666;
+  background-color: #eee;
+  border-radius: 20px;
+}
+.repositoryContainer .repos-list {
+  padding: 0;
+  font-size: 14px;
+}
+.repositoryContainer .repos-list .repo-item {
+  width: 405px;
+}
+.repositoryContainer .repos-list .repo-item .repo-item-content .repo-language-color {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  position: relative;
+  top: 2px;
+  display: inline-block;
+}
+.repositoryContainer .repos-list .repo-item .repo-item-content .repo-desc {
+  flex: 1 0 auto;
+}
+.repositoryContainer .repos-list .repo-item .repo-item-content .repo-meta + .repo-meta {
+  margin-left: 16px;
+  text-decoration: none;
+}
+.repositoryContainer .repos-list .repo-item .repo-item-content .repo-meta + .repo-meta:hover {
+  color: #0366d6 !important;
+}
+.text-small {
+  font-size: 12px !important;
+}
+.f12 {
+  font-size: 12px !important;
+}
+.f14 {
+  font-size: 14px !important;
+}
+.octicon {
+  display: inline-block;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+ul, li {
+  list-style-type: none;
+}
+
